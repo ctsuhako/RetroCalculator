@@ -14,6 +14,9 @@
 		A05DD1F91D74A3EC00C8FC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05DD1F71D74A3EC00C8FC7F /* LaunchScreen.storyboard */; };
 		A05DD2041D74A3ED00C8FC7F /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05DD2031D74A3ED00C8FC7F /* RetroCalculatorTests.swift */; };
 		A05DD20F1D74A3ED00C8FC7F /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05DD20E1D74A3ED00C8FC7F /* RetroCalculatorUITests.swift */; };
+		A05DD21D1D74B82300C8FC7F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05DD21C1D74B82300C8FC7F /* Minecraft.ttf */; };
+		A05DD21E1D74B82300C8FC7F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05DD21C1D74B82300C8FC7F /* Minecraft.ttf */; };
+		A05DD21F1D74B82300C8FC7F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A05DD21C1D74B82300C8FC7F /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		A05DD20A1D74A3ED00C8FC7F /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05DD20E1D74A3ED00C8FC7F /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		A05DD2101D74A3ED00C8FC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05DD21C1D74B82300C8FC7F /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		A05DD1E21D74A3EC00C8FC7F = {
 			isa = PBXGroup;
 			children = (
+				A05DD21C1D74B82300C8FC7F /* Minecraft.ttf */,
 				A05DD1ED1D74A3EC00C8FC7F /* RetroCalculator */,
 				A05DD2021D74A3ED00C8FC7F /* RetroCalculatorTests */,
 				A05DD20D1D74A3ED00C8FC7F /* RetroCalculatorUITests */,
@@ -234,6 +239,7 @@
 			files = (
 				A05DD1F91D74A3EC00C8FC7F /* LaunchScreen.storyboard in Resources */,
 				A05DD1F61D74A3EC00C8FC7F /* Assets.xcassets in Resources */,
+				A05DD21D1D74B82300C8FC7F /* Minecraft.ttf in Resources */,
 				A05DD1F41D74A3EC00C8FC7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05DD21E1D74B82300C8FC7F /* Minecraft.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05DD21F1D74B82300C8FC7F /* Minecraft.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
