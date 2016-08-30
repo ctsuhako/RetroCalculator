@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -221,9 +222,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJ5-Rg-HrI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="mS0-bN-TJs"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HeB-gl-KsH"/>
+                                    <action selector="onClearBtnPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="haK-5s-QW1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="KJ5-Rg-HrI" firstAttribute="top" secondItem="u9i-Lh-ewx" secondAttribute="bottom" constant="19" id="2ML-dr-pfS"/>
                             <constraint firstItem="7kr-80-P5d" firstAttribute="trailing" secondItem="umH-np-9Kr" secondAttribute="trailing" constant="-15" id="8Xc-6Q-BPD"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dlI-7v-yDc" secondAttribute="bottom" id="CtN-Qf-oJA"/>
                             <constraint firstItem="u9i-Lh-ewx" firstAttribute="top" secondItem="umH-np-9Kr" secondAttribute="bottom" constant="10" id="IFA-zj-ty3"/>
@@ -231,7 +243,9 @@
                             <constraint firstAttribute="trailing" secondItem="dlI-7v-yDc" secondAttribute="trailing" id="ON9-jt-yPh"/>
                             <constraint firstItem="7kr-80-P5d" firstAttribute="centerY" secondItem="umH-np-9Kr" secondAttribute="centerY" id="PWt-9K-fca"/>
                             <constraint firstItem="Nxk-BB-UDW" firstAttribute="centerY" secondItem="u9i-Lh-ewx" secondAttribute="centerY" id="Scw-Ni-rNA"/>
+                            <constraint firstItem="KJ5-Rg-HrI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="68" id="VOH-Jj-VZs"/>
                             <constraint firstItem="Nxk-BB-UDW" firstAttribute="centerX" secondItem="u9i-Lh-ewx" secondAttribute="centerX" id="Vlx-Eu-3va"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KJ5-Rg-HrI" secondAttribute="trailing" constant="68" id="dEw-wu-oNV"/>
                             <constraint firstAttribute="trailing" secondItem="6F8-Mb-FGe" secondAttribute="trailing" id="iLB-go-gH2"/>
                             <constraint firstItem="dlI-7v-yDc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jtI-wN-gnL"/>
                             <constraint firstItem="umH-np-9Kr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="5" id="kO9-Yp-jmR"/>
@@ -248,7 +262,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-473" y="73"/>
+            <point key="canvasLocation" x="-972" y="70.614692653673174"/>
         </scene>
     </scenes>
     <resources>
@@ -264,6 +278,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
